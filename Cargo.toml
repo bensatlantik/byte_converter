@@ -1,11 +1,16 @@
 [package]
 name = "byte_converter"
 version = "0.1.0"
-authors = ["Ben Santora <you@example.com>"]
-edition = "2021"
-description = "A library for converting between bytes, kilobytes, and megabytes"
+authors = ["Ben Santora"]
+edition = "2018"
+description = "A Rust library for converting bytes to various units (KB, MB, GB, etc.)."
 license = "MIT"
 repository = "https://github.com/bensatlantik/byte_converter"
+homepage = "https://github.com/bensatlantik/byte_converter"
+documentation = "https://docs.rs/byte_converter"
 readme = "README.md"
-keywords = ["bytes", "kilobytes", "megabytes", "conversion"]
-categories = ["data-structures", "text-processing"]
+keywords = ["bytes", "conversion", "units", "data-size"]
+categories = ["data-structures", "utilities"]
+
+[dependencies]
+# Add dependencies here if needed
