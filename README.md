@@ -1,12 +1,12 @@
 ## byte_converter
 byte_converter is a Rust library for converting between bytes, kilobytes, and megabytes.
 
-## Usage
+## Installation
 Add byte_converter to your Cargo.toml:
-
 [dependencies]
 byte_converter = "0.1.0"
 
+## Usage
 Then, you can use the conversion functions:
 
 use byte_converter::{bytes_to_kb, kb_to_mb};
