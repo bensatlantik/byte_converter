@@ -10,7 +10,7 @@ homepage = "https://github.com/bensatlantik/byte_converter"
 documentation = "https://docs.rs/byte_converter"
 readme = "README.md"
 keywords = ["bytes", "conversion", "units", "data-size"]
-categories = ["data-structures", "utilities"]
+categories = ["data-structures"]
 
 [dependencies]
 # Add dependencies here if needed
