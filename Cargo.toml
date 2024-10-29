@@ -1,6 +1,6 @@
 [package]
 name = "byte_converter"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Ben Santora"]
 edition = "2018"
 description = "A Rust library for converting bytes to various units (KB, MB, GB, etc.)."
