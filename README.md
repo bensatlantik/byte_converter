@@ -8,7 +8,7 @@ byte_converter = "0.1.0"
 
 ## Usage
 Then, you can use the conversion functions:
-
+```rust
 use byte_converter::{bytes_to_kb, kb_to_mb};
 
 fn main() {
@@ -18,6 +18,10 @@ fn main() {
     let mb = kb_to_mb(2048.0);
     println!("2048 KB is {} MB", mb);
 }
+```
 
 ## License
 This project is licensed under the MIT License.
+
+## Author
+Ben Santora (<bensatlantik@gmail.com>)
